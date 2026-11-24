@@ -139,4 +139,4 @@
   const topBtn=document.getElementById('topBtn');window.addEventListener('scroll',()=>topBtn.classList.toggle('visible',window.scrollY>500));topBtn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
 </script>
 </body>
-</html>  document.getElementById('contactForm').addEventListener('submit',e=>{e.preventDefault();const f=e.currentTarget;const subject=encodeURIComponent('Pesan portofolio dari '+f.name.value);const body=encodeURIComponent('Nama: '+f.name.value+'\nEmail: '+f.email.value+'\n\nPesan:\n'+f.message.value);window.location.href='mailto:emailkamu@example.com?subject='+subject+'&body='+body;});
+</html>  
